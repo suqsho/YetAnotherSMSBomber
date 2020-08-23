@@ -14,7 +14,7 @@
 It's as easy as typing the below commands into your terminal.
 ```bash
 # Clone my repo
-git clone https://github.com/AvinashReddy3108/YetAnotherSMSBomber.git
+git clone https://github.com/suqsho/YetAnotherSMSBomber.git
 
 # Move into the work directory.
 cd YetAnotherSMSBomber
