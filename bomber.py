@@ -117,7 +117,7 @@ not args.verbose and not args.verify and print(
 def get_proxy():
     args.verbose and print("Fetching proxies from server.....")
     curl = requests.get(
-        "https://gimmeproxy.com/api/getProxy?curl=true&protocol=http&supportsHttps=true"
+        "https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all"
     ).text
     if "limit" in curl:
         print("Proxy limitation error. Try without `-p` or `--proxy` argument")
